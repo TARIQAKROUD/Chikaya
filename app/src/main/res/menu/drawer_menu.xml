@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/services"
+            android:icon="@drawable/ic_services"
+            android:title="@string/service_des_plaintes" />
+
+        <item
+            android:id="@+id/gest_prof"
+            android:icon="@drawable/ic_gest_prof"
+            android:title="@string/gestion_du_profil" />
+        <item
+            android:id="@+id/notif"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/notifications" />
+    </group>
+    <item android:title="@string/communication">
+        <menu>
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/ic_support"
+                android:title="@string/support" />
+            <item
+                android:id="@+id/nav_forum"
+                android:icon="@drawable/ic_forum"
+                android:title="@string/forum" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/partager" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/Déconnexion" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="service_des_plaintes">Services Des Plaintes</string>
+    <string name="gestion_du_profil">Gestion Du Profil</string>
+    <string name="notifications">Notifications</string>
+    <string name="communication">Communication</string>
+    <string name="support">Support</string>
+    <string name="forum">Forum</string>
+    <string name="partager">Partager</string>
+    <string name="Déconnexion">Déconnexion</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
